@@ -1,6 +1,7 @@
 ## 📌 Software Developer Career Guide and Interview Preparation
 Welcome to the Software Developer Career Guide and Interview Preparation repository! This comprehensive guide is designed to help you succeed in your software development career journey.
-***
+- - -
+
 <br>
 📌 Contents
 Resumes and Cover Letters
@@ -15,7 +16,8 @@ Coding Test Preparation
 
 Strategies to excel in coding interviews
 Resources and practice problems
-***
+- - -
+
 <br>
 📌 How to Use This Repository
 Resumes and Cover Letters
