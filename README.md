@@ -29,8 +29,7 @@ This repository provides guides, reference materials, and examples to help you p
 #### (3) ⭐️ 포토포리오 (Portfolio)
 
 #### (4) ⭐️ 코딩 테스트 (Coding Test) 
-#### - [시간복잡도](https://blog.naver.com/zzzxxx3166/223510532140)
-#### - [스택,큐](https://blog.naver.com/zzzxxx3166/223513375692)
+#### - [시간복잡도](https://blog.naver.com/zzzxxx3166/223510532140)<br> - [스택,큐](https://blog.naver.com/zzzxxx3166/223513375692)
 #### (5) 인적성 시험 (Aptitude Test)
 
 #### (6) ⭐️ 면접 (Interview)
