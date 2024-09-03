@@ -1,43 +1,29 @@
-## 📌 Software Developer Career Guide and Interview Preparation
-Welcome to the Software Developer Career Guide and Interview Preparation repository! This comprehensive guide is designed to help you succeed in your software development career journey.
-<br><br>
+# 📌 TCP와 UDP 통신의 차이점 및 사용 사례
 
+## (1) TCP 통신과 UDP 통신의 차이점
 
-## 🔥 한국에서의 소프트웨어 개발 직무 채용 절차<br>Hiring Process for Software Development Positions in Korea
+### TCP (Transmission Control Protocol)
+- **연결 지향적**: TCP는 통신을 시작하기 전에 세 개의 단계(3-way handshake)를 거쳐 연결을 설정합니다.
+- **데이터 전달 보장**: TCP는 데이터가 정확하게 도착할 때까지 재전송을 시도하며, 데이터 패킷이 올바른 순서로 도착하도록 보장합니다.
+- **흐름 제어 및 혼잡 제어**: 네트워크 혼잡을 방지하기 위해 데이터를 전송하는 속도를 조절합니다.
+- **오버헤드**: TCP는 데이터 무결성과 신뢰성을 보장하기 위한 추가적인 헤더 정보를 포함하므로 UDP에 비해 오버헤드가 큽니다.
 
-한국에서는 소프트웨어 개발 직무를 지원할 때, 일반적으로 몇 가지 주요 단계를 거치게 됩니다. 그러나 기업마다 채용 절차가 매우 상이하므로 지원하는 각 기업의 채용 절차를 잘 확인하는 것이 중요합니다. 일부 기업은 특정 절차를 생략하거나 면접을 먼저 진행하기도 합니다.
+### UDP (User Datagram Protocol)
+- **비연결 지향적**: UDP는 연결 설정 단계가 없으며, 데이터를 바로 전송합니다.
+- **데이터 전달 비보장**: 데이터 패킷이 손실되거나 순서가 뒤바뀌어도 재전송을 시도하지 않습니다.
+- **흐름 제어 및 혼잡 제어 없음**: 전송 속도를 제어하는 메커니즘이 없고, 네트워크 상태와 상관없이 데이터를 전송합니다.
+- **낮은 오버헤드**: UDP는 최소한의 헤더 정보를 사용하므로 TCP보다 오버헤드가 적습니다.
 
-해당 저장소에서는 각 단계 준비를 위한 가이드와 참고자료, 예시를 제공하며, 공학 관련 직무를 준비하는 취업 준비생에게 도움을 주고자 합니다 :) <br><br>
-In Korea, the hiring process for software development positions typically involves several key steps. However, the specific procedures can vary significantly between companies, so it is crucial to check the hiring process for each company you apply to. Some companies may skip certain steps or conduct interviews earlier in the process.
+## (2) TCP 통신을 사용하는 곳
 
-This repository provides guides, reference materials, and examples to help you prepare for each step, aiming to assist job seekers preparing for engineering-related positions.
-<br><br>
+- **웹 브라우징**: HTTP/HTTPS 프로토콜은 TCP를 사용하여 웹 페이지 데이터를 신뢰성 있게 전송합니다.
+- **이메일 전송**: SMTP, IMAP, POP3와 같은 이메일 프로토콜은 TCP를 사용하여 이메일 데이터를 안정적으로 전달합니다.
+- **파일 전송**: FTP, SFTP 등 파일 전송 프로토콜은 TCP를 사용해 데이터가 손상 없이 전송되도록 보장합니다.
+- **데이터베이스 통신**: 데이터베이스 서버와 클라이언트 간의 데이터 전송은 TCP를 사용하여 데이터의 일관성과 신뢰성을 보장합니다.
 
-## ✨ 채용 절차 Hiring Process
+## (3) UDP 통신을 사용하는 곳
 
-#### 서류 심사 (이력서/자기소개서/포트폴리오) -> 인적성/코딩 테스트 -> 면접 (1차/2차)<br>Document Screening (Resume/Cover Letter/Portfolio) -> Aptitude/Coding Test -> Interview (1st/2nd rounds)
-<br><br>
-
-
-## 📌 Contents
-
-
-#### (1) 이력서 (Resume)
-
-#### (2) 자기소개서 (Cover Letter)
-
-#### (3) ⭐️ 포토포리오 (Portfolio)
-
-#### (4) ⭐️ 코딩 테스트 (Coding Test) 
-#### - [백준 문제 추천](https://blog.naver.com/zzzxxx3166/223517272663)<br> 
-- [Time complexity 시간복잡도](https://blog.naver.com/zzzxxx3166/223510532140)<br>
-- [Stack, Queue 스택,큐](https://blog.naver.com/zzzxxx3166/223513375692)<br>
-- [문제풀이,스택큐](https://blog.naver.com/zzzxxx3166/223522565918)<br>
-- [Hash 해시](https://blog.naver.com/zzzxxx3166/223527017336)<br>
-- [Tree 트리](https://blog.naver.com/zzzxxx3166/223533254579)<br>
-- [집합 Union&find](https://blog.naver.com/zzzxxx3166/223539540905)
-- [그래프 Graph](https://blog.naver.com/zzzxxx3166/223546675775)
-#### (5) 인적성 시험 (Aptitude Test)
-
-#### (6) ⭐️ 면접 (Interview)
-
+- **실시간 스트리밍**: 비디오, 오디오 스트리밍에서 UDP를 사용하여 빠른 전송 속도가 요구되는 상황에서 데이터 패킷 손실을 감수하고 실시간성을 우선합니다.
+- **온라인 게임**: 네트워크 게임에서 UDP를 사용하여 빠른 반응 시간을 위해 약간의 데이터 손실을 감수하며 데이터를 전송합니다.
+- **DNS 조회**: DNS 요청은 UDP를 사용하여 신속하게 서버에 질의하고 응답을 받습니다.
+- **VoIP(Voice over IP)**: 음성 통신 서비스에서 UDP를 사용하여 음성 데이터를 빠르게 전송하여 지연을 최소화합니다.
