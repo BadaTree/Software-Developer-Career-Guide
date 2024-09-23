@@ -21,8 +21,8 @@ This repository provides guides, reference materials, and examples to help you p
 
 ## 📌 Contents
 
-
 #### (1) 이력서 (Resume)
+- [Reference Resume](https://www.jobkorea.co.kr/User/Resume/View?rNo=26661425)
 
 #### (2) 자기소개서 (Cover Letter)
 
@@ -41,8 +41,8 @@ This repository provides guides, reference materials, and examples to help you p
 - [집합 Union&find](https://blog.naver.com/zzzxxx3166/223539540905)<br>
 - [그래프 Graph](https://blog.naver.com/zzzxxx3166/223546675775)<br>
 - [백트래킹 Backtracking](https://blog.naver.com/zzzxxx3166/223556858041)
-- [정렬](https://blog.naver.com/zzzxxx3166/223565570877)
-- [동적계획법](https://blog.naver.com/zzzxxx3166/223575021143)
+- [정렬 Sort](https://blog.naver.com/zzzxxx3166/223565570877)
+- [동적계획법 Dynamic Programming](https://blog.naver.com/zzzxxx3166/223575021143)
 #### (5) 인적성 시험 (Aptitude Test)
 
 #### (6) ⭐️ 면접 (Interview)
