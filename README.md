@@ -30,6 +30,7 @@ This repository provides guides, reference materials, and examples to help you p
 [Portfolio](https://www.notion.so/Portfolio-1135fca76a0b805ea320c6e24cc12ddc)
 #### (4) ⭐️ 코딩 테스트 (Coding Test) 
 #### - [백준 문제 추천](https://blog.naver.com/zzzxxx3166/223517272663)<br> 
+- [백준 문제 추천](https://github.com/BadaTree/coding-test-practice/tree/main/Algorithm_DataStuctures)
 - [200 - 자료구조 1](https://blog.naver.com/zzzxxx3166/223522565918)<br>
 - [300 - 수학 1](https://blog.naver.com/zzzxxx3166/223565565904)<br><br> 
 #### - [Data Structures && Algorithms](https://blog.naver.com/zzzxxx3166/223502059654)<br> 
