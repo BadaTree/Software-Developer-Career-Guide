@@ -32,7 +32,8 @@ This repository provides guides, reference materials, and examples to help you p
 #### - [백준 문제 추천](https://blog.naver.com/zzzxxx3166/223517272663)<br> 
 - [백준 문제 추천](https://github.com/BadaTree/coding-test-practice/tree/main/Algorithm_DataStuctures)
 - [200 - 자료구조 1](https://blog.naver.com/zzzxxx3166/223522565918)<br>
-- [300 - 수학 1](https://blog.naver.com/zzzxxx3166/223565565904)<br><br> 
+- [300 - 수학 1](https://blog.naver.com/zzzxxx3166/223565565904)<br>
+- [400 - 다이나믹프로그래밍 1](https://blog.naver.com/zzzxxx3166/223605935358)<br><br> 
 #### - [Data Structures && Algorithms](https://blog.naver.com/zzzxxx3166/223502059654)<br> 
 - [Time complexity 시간복잡도](https://blog.naver.com/zzzxxx3166/223510532140)<br>
 - [Stack, Queue 스택,큐](https://blog.naver.com/zzzxxx3166/223513375692)<br>
